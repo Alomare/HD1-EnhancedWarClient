@@ -1,0 +1,21 @@
+{
+  "obsidian": 1,
+  "id": "alomare.enhancedwar",
+  "version": "0.1.0",
+  "name": {
+    "en": "Enhanced War Client"
+  },
+  "description": {
+    "en": "The client side of Enhanced wars hosted with Obsidian Commander. Every player in an Enhanced war needs it, and Obsidian installs and enables it when the war is selected. For now it only detects an Enhanced war. Outside an Enhanced war it changes nothing."
+  },
+  "authors": [
+    "Alomare"
+  ],
+  "scope": "client",
+  "entry": "main.lua",
+  "source": "https://github.com/Alomare/HD1-EnhancedWarClient",
+  "modules": [
+    "src/detect.lua"
+  ],
+  "loader_api": 1
+}
